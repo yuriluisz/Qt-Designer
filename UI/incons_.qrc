@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icons/barra-de-menu.png</file>
+    <file>icons/botao-home.png</file>
+    <file>icons/o-email.png</file>
+    <file>icons/youtube.png</file>
+  </qresource>
+</RCC>
