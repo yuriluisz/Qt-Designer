@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1097</width>
-    <height>689</height>
+    <height>709</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -62,7 +62,7 @@ background-color: rgb(202, 202, 202);</string>
              </font>
             </property>
             <property name="text">
-             <string>CadastroMAX</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;CadastroMAX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
            </widget>
           </item>
@@ -121,7 +121,7 @@ border-radius:15px;
                <x>0</x>
                <y>0</y>
                <width>156</width>
-               <height>508</height>
+               <height>528</height>
               </rect>
              </property>
              <attribute name="label">
@@ -257,7 +257,7 @@ border-radius:15px;
                <x>0</x>
                <y>0</y>
                <width>156</width>
-               <height>508</height>
+               <height>528</height>
               </rect>
              </property>
              <attribute name="label">
@@ -288,7 +288,7 @@ border-radius:15px;
                   <string notr="true"/>
                  </property>
                  <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Usuario: Chepyz&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Sistema: Cadastro&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Status: Ativo&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Val: 13/03/2999&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Usuario: Chepyz&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Sistema: Cadastro&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Status: Ativo&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Val: 13/03/2999&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                 </widget>
                </widget>
@@ -343,8 +343,8 @@ background-color: rgb(185, 185, 185);
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="incons_.qrc">
-              <normaloff>:/icon/icons/barra-de-menu.png</normaloff>:/icon/icons/barra-de-menu.png</iconset>
+             <iconset>
+              <normaloff>:/icons/icons/barra-de-menu.png</normaloff>:/icons/icons/barra-de-menu.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -362,7 +362,7 @@ background-color: rgb(185, 185, 185);
              </font>
             </property>
             <property name="text">
-             <string>CadastroMAX</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;CadastroMAX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
            </widget>
           </item>
@@ -390,14 +390,14 @@ background-color: rgb(185, 185, 185);
           <item>
            <widget class="QStackedWidget" name="Pages">
             <property name="currentIndex">
-             <number>1</number>
+             <number>2</number>
             </property>
             <widget class="QWidget" name="Home">
              <layout class="QVBoxLayout" name="verticalLayout_7">
               <item>
-               <widget class="QLabel" name="label_6">
+               <widget class="QLabel" name="Icon">
                 <property name="text">
-                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icon/icons/botao-home.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icon/icons/Consulta MAX (512 × 512 px) (1).png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
                </widget>
               </item>
@@ -427,7 +427,7 @@ QFrame{
                  <cursorShape>PointingHandCursor</cursorShape>
                 </property>
                 <property name="currentIndex">
-                 <number>1</number>
+                 <number>0</number>
                 </property>
                 <widget class="QWidget" name="tab">
                  <attribute name="title">
@@ -458,14 +458,14 @@ QFrame{
                       </widget>
                      </item>
                      <item row="1" column="1" colspan="3">
-                      <widget class="QLineEdit" name="LinNome">
+                      <widget class="QLineEdit" name="linNome_2">
                        <property name="placeholderText">
                         <string>NOME</string>
                        </property>
                       </widget>
                      </item>
                      <item row="2" column="0" colspan="4">
-                      <widget class="QLineEdit" name="LinLogra">
+                      <widget class="QLineEdit" name="linLogra">
                        <property name="placeholderText">
                         <string>LOGRADOURO</string>
                        </property>
@@ -493,14 +493,14 @@ QFrame{
                       </widget>
                      </item>
                      <item row="4" column="0" colspan="2">
-                      <widget class="QLineEdit" name="LinMunic">
+                      <widget class="QLineEdit" name="linMunic">
                        <property name="placeholderText">
                         <string>MUNICIPIO</string>
                        </property>
                       </widget>
                      </item>
                      <item row="4" column="2">
-                      <widget class="QLineEdit" name="LUF">
+                      <widget class="QLineEdit" name="linUF">
                        <property name="placeholderText">
                         <string>UF</string>
                        </property>
@@ -545,7 +545,8 @@ QFrame{
                     </property>
                     <property name="styleSheet">
                      <string notr="true">QPushButton:hover{
-background-color: rgb(255, 255, 0);
+background-color: rgb(156, 156, 156);
+	color: rgb(255, 255, 255);
 border-radius:15px;
 }
 QPushButton{
@@ -566,7 +567,7 @@ background-color: rgb(255, 255, 255);
                  </attribute>
                  <layout class="QVBoxLayout" name="verticalLayout_10">
                   <item>
-                   <widget class="QLabel" name="label_7">
+                   <widget class="QLabel" name="Titl">
                     <property name="text">
                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Empresas&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                     </property>
@@ -575,7 +576,7 @@ background-color: rgb(255, 255, 255);
                   <item>
                    <layout class="QHBoxLayout" name="horizontalLayout_6">
                     <item>
-                     <widget class="QTableWidget" name="tableWidget">
+                     <widget class="QTableWidget" name="painel">
                       <property name="styleSheet">
                        <string notr="true">QHeaderView::section {
 background-color: rgb(112, 112, 112);
@@ -667,7 +668,7 @@ border-radius:15px;
                          </property>
                          <property name="styleSheet">
                           <string notr="true">QPushButton:hover{
-background-color: rgb(0, 204, 0);
+background-color: rgb(70, 212, 104);
 border-radius:15px;
 }</string>
                          </property>
@@ -691,7 +692,7 @@ border-radius:15px;
                          </property>
                          <property name="styleSheet">
                           <string notr="true">QPushButton:hover{
-background-color: rgb(255, 255, 0);
+background-color: rgb(231, 231, 31);
 border-radius:15px;
 }</string>
                          </property>
@@ -715,8 +716,9 @@ border-radius:15px;
                          </property>
                          <property name="styleSheet">
                           <string notr="true">QPushButton:hover{
-background-color: rgb(255, 0, 0);
+background-color: rgb(220, 0, 0);
 border-radius:15px;
+	color: rgb(255, 255, 255);
 }</string>
                          </property>
                          <property name="text">
@@ -725,7 +727,7 @@ border-radius:15px;
                         </widget>
                        </item>
                        <item>
-                        <spacer name="verticalSpacer_2">
+                        <spacer name="spacer1">
                          <property name="orientation">
                           <enum>Qt::Vertical</enum>
                          </property>
@@ -751,9 +753,9 @@ border-radius:15px;
             <widget class="QWidget" name="Contatos">
              <layout class="QVBoxLayout" name="verticalLayout_12">
               <item>
-               <widget class="QLabel" name="label_9">
+               <widget class="QLabel" name="cntt">
                 <property name="text">
-                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icon/icons/o-email.png&quot;/&gt;&lt;span style=&quot; font-size:26pt;&quot;&gt;yulusica@gmail.com&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:600;&quot;&gt;Contatos&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icon/icons/instagram.png&quot;/&gt; - &lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;cadastromax_&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icon/icons/o-email.png&quot;/&gt; - &lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;cadastromax@suporte.com&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icon/icons/youtube.png&quot;/&gt; - &lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;CadastroMAX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
                </widget>
               </item>
@@ -764,14 +766,14 @@ border-radius:15px;
               <item>
                <widget class="QLabel" name="label_5">
                 <property name="text">
-                 <string>Sobre</string>
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt;&quot;&gt;Sobre a CadastroMAX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label_10">
                 <property name="text">
-                 <string>bla bla bla bla bla</string>
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Nos somos uma empresa qualificada em consultas e cadastros de empresas&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; em bancos de dados registrados, trabalhamos com a criacao dos bancos com o intuito de&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; organizar, acelerar e facilitar o processo de cadastros das empresas.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
                </widget>
               </item>
@@ -792,14 +794,14 @@ border-radius:15px;
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item alignment="Qt::AlignRight">
-           <widget class="QLabel" name="label_2">
+           <widget class="QLabel" name="Inf">
             <property name="font">
              <font>
               <pointsize>9</pointsize>
              </font>
             </property>
             <property name="text">
-             <string>CadastroMAX  CNPJ 453.456.4532-567  CEP 7456-324 </string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;CadastroMAX  CNPJ 453.456.4532-567  CEP 7456-324 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
            </widget>
           </item>
@@ -813,7 +815,7 @@ border-radius:15px;
   </widget>
  </widget>
  <resources>
-  <include location="incons_.qrc"/>
+  <include location="../icons_.qrc"/>
  </resources>
  <connections/>
 </ui>
