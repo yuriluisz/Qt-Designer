@@ -2,6 +2,8 @@
   <qresource prefix="icon">
     <file>icons/barra-de-menu.png</file>
     <file>icons/botao-home.png</file>
+    <file>icons/Consulta MAX (512 × 512 px) (1).png</file>
+    <file>icons/instagram.png</file>
     <file>icons/o-email.png</file>
     <file>icons/youtube.png</file>
   </qresource>
