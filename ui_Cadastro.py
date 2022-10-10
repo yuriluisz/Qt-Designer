@@ -20,7 +20,7 @@ from PySide6.QtWidgets import (QApplication, QFrame, QGridLayout, QHBoxLayout,
     QPushButton, QSizePolicy, QSpacerItem, QStackedWidget,
     QTabWidget, QTableWidget, QTableWidgetItem, QToolBox,
     QVBoxLayout, QWidget)
-import icons_rc
+import icons__rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -507,7 +507,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
 
         self.toolBox.setCurrentIndex(0)
-        self.Pages.setCurrentIndex(2)
+        self.Pages.setCurrentIndex(0)
         self.tabWidget.setCurrentIndex(0)
 
 

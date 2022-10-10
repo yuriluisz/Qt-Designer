@@ -390,7 +390,7 @@ background-color: rgb(185, 185, 185);
           <item>
            <widget class="QStackedWidget" name="Pages">
             <property name="currentIndex">
-             <number>2</number>
+             <number>0</number>
             </property>
             <widget class="QWidget" name="Home">
              <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -815,7 +815,7 @@ border-radius:15px;
   </widget>
  </widget>
  <resources>
-  <include location="../icons_.qrc"/>
+  <include location="icons_.qrc"/>
  </resources>
  <connections/>
 </ui>
