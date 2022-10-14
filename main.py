@@ -1,20 +1,22 @@
-from PySide6.QtCore import QCoreApplication
-from PySide6.QtWidgets import (QApplication, QMainWindow)
-from PySide6.QtGui import QIcon
-from ui_Cadastro import Ui_MainWindow
 import sys
 
-class MainWindow(QMainWindow, Ui_MainWindow):
+'''from PySide6.QtGui import QIcon
+from PySide6.QtWidgets import (QApplication, QMainWindow)
+from PySide6.QtCore import QCoreApplication'''
+
+from ui_Cadastro import Ui_MainWindow
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class mainwindow(Ui_MainWindow):
     def __init__(self):
-        super(MainWindow, self).__init__()
+        super(mainwindow, self).__init__()
         self.setupUi(self)
         self.setWindowTitle("ConsultaMAX - Consulte e Cadastre Empresas")
-        appIcon = QIcon(u"")
-        self.setWindowIcon(appIcon)
+
 
 if __name__ == "__main__":
-
-    app = QApplication(sys.argv)
-    window = MainWindow
-    window.show
+    app = QtWidgets(sys.argv)
+    window = mainwindow
+    window.show()
     app.exec()
